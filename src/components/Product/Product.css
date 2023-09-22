@@ -1,0 +1,27 @@
+.Product-container {
+  display: flex;
+  padding: 5em 10em;
+  overflow: hidden;
+  gap: 2em;
+}
+.Product-container .Product-carousel {
+  width: 40%;
+  text-align: center;
+}
+.Product-container .Product-info {
+  width: 40%;
+  display: flex;
+}
+
+@media screen and (max-width: 760px) {
+  .Product-container {
+    padding: 1em 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Product-container .Product-carousel {
+    width: 90%;
+  }
+}/*# sourceMappingURL=Product.css.map */

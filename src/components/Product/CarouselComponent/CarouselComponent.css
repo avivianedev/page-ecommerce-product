@@ -1,0 +1,22 @@
+.carousel-container {
+  margin: 0 auto;
+  /**/
+}
+.carousel-container ul {
+  padding: 0;
+}
+.carousel-container .carousel .thumb.selected,
+.carousel-container .carousel .thumb:hover {
+  border: 3px solid hsl(26, 100%, 55%);
+}
+.carousel-container .carousel .control-arrow,
+.carousel-container .carousel.carousel-slider .control-arrow {
+  opacity: 10;
+}
+.carousel-container .carousel-item img {
+  border-radius: 20px;
+}
+.carousel-container img {
+  border-radius: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=CarouselComponent.css.map */

@@ -1,0 +1,66 @@
+.modal-container {
+  padding: 2em;
+  width: 400px;
+  min-height: 300px;
+  background-color: #fff;
+  position: absolute;
+  top: 105%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+  z-index: 2;
+  gap: 2em;
+  box-shadow: 6px 4px 18px 0px rgba(0, 0, 0, 0.22);
+  border-radius: 25px;
+}
+.modal-container h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.modal-container .line-cart {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid var(--Grayish-blue);
+}
+.modal-container .empty {
+  width: 400px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-container .empty p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.modal-container .cart-products {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.modal-container .cart-products .produts-content {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.modal-container .cart-products .produts-content img {
+  width: 100px;
+  height: 100px;
+}
+.modal-container .cart-products .produts-content p {
+  font-size: 18px;
+}
+.modal-container .cart-products .produts-content .btn-trash {
+  cursor: pointer;
+}
+.modal-container .cart-products button {
+  padding: 1em;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--Orange);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=CartModal.css.map */
